@@ -1,0 +1,6 @@
+usar la imagen de python:3.11-slim
+para correr la aplicación del archivo "scrypt.py", 
+copiándolo en el directorio de trabajo "/aplicaciones" 
+se debe ejecutar el comando "python", "scrypt.py" 
+
+darle un nombre sgnificativo a la imagen y ejecutarla de forma que el contenedor se elimine tras la ejecución

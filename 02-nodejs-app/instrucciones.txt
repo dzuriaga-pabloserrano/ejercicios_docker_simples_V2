@@ -1,0 +1,7 @@
+usar la imagen de node:22-alpine 
+para correr la aplicación del archivo "app.js", 
+copiándolo en el directorio de trabajo "/app" 
+usando el puerto 3000
+se debe ejecutar el comando "node", "app.js" 
+
+darle un nombre sgnificativo a la imagen y ejecutarla de forma que el contenedor se ejecute en segundo plano

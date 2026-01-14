@@ -1,0 +1,6 @@
+usar la imagen de nginx:alpine
+para correr la aplicación del archivo "index.html", 
+copiándolo en la carpeta "usr/share/nginx/html/index.html"
+se debe ejecutar el comando "python", "scrypt.py" 
+
+darle un nombre sgnificativo a la imagen y ejecutarla de forma que el contenedor se elimine tras la ejecución
