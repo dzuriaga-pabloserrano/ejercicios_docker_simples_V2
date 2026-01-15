@@ -1,0 +1,15 @@
+levantar una base de datos SQL con mysql:8.0
+
+darle de nombre mysql-ejemplo
+
+definir variables de entorno:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: ejemplo
+
+mapear puertos 3006:3006
+
+usar como punto de montaje el archivo .sql y montarlo en /docker-entrypoint-initdb.d/init.sql
+
+crear el contenedor
+
+ejecutar el comando necesario en la consola para entrar en modo y hacer un qwery en la base de datos
