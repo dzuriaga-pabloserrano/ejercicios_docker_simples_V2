@@ -1,6 +1,7 @@
 usar la imagen de nginx:alpine
 para correr la aplicación del archivo "index.html", 
 copiándolo en la carpeta "usr/share/nginx/html/index.html"
-se debe ejecutar el comando "python", "scrypt.py" 
+hay que mapear puertos para que funcione la aplicación 8080 del ordenador a 80 del contenedor
+
 
 darle un nombre sgnificativo a la imagen y ejecutarla de forma que el contenedor se elimine tras la ejecución
