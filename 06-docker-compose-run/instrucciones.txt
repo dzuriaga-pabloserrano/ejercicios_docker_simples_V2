@@ -1,0 +1,15 @@
+usando nginx:alpine
+
+instala nano
+
+crea una carpeta en /var/log/ que se llame carpeta_de_prueba
+
+crea un index.html en /usr/share/nginx/html/ que diga "<h1>Hola Mundo!</h1><p>Imagen generada el: $(date)</p>"
+
+documenta que vamos a usar el puerto 80
+
+mediante el orquestador, crea el contenedor con el nombre servidor_ejemplo
+
+mapea el puesto (maquina) 8080:80 (contenedor)
+
+ejecuta el contenedor y visualizalo en el navegador
